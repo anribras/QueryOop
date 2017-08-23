@@ -1,0 +1,2338 @@
+cscope 15 /opt/study/cpp/QueryOpp -q 0000000110 0000011037
+	@/opt/study/cpp/QueryOpp/AndQuery.cpp
+
+	@/opt/study/cpp/QueryOpp/AndQuery.h
+
+	@/opt/study/cpp/QueryOpp/BinaryQuery.cpp
+
+	@/opt/study/cpp/QueryOpp/BinaryQuery.h
+
+	@/opt/study/cpp/QueryOpp/NotQuery.cpp
+
+1 #iâdeà
+NOT_QUERY_CPP
+
+
+2 
+	#NOT_QUERY_CPP
+
+
+	)
+
+5 
+	~"NÙQu”y.h
+"
+
+6 
+	~<memÜy
+>
+
+7 
+	~<®gÜ™hm
+>
+
+8 
+	~<™”©Ü
+>
+
+10 
+usšg
+ 
+Çme¥aû
+ 
+	g¡d
+;
+
+11 
+	gQu”yResuÉ
+::
+	tsize_ty³
+ size_type;
+
+13 
+	gNÙQu”y
+::
+	$NÙQu”y
+(
+Qu”y
+ & 
+q
+)
+
+15 
+pqu”y
+ = 
+make_sh¬ed
+<
+Qu”y
+>(
+q
+);
+
+16 
+	}
+}
+
+18 
+Qu”yResuÉ
+ 
+	gNÙQu”y
+::
+	$ev®
+(
+Qu”yText
+ & 
+t
+)
+
+20 
+size_ty³
+ 
+i
+ = 0;
+
+21 autØ
+»suÉ
+ = 
+pqu”y
+->
+	`ev®
+(
+t
+);
+
+22 autØ
+foundlšes
+ = 
+»suÉ
+.
+	`g‘_lšes
+();
+
+24 autØ
+tÙ®size
+ = 
+»suÉ
+.
+	`tÙ®_lšes
+();
+
+26 
+£t
+<
+size_ty³
+> 
+tmp_£t
+;
+
+27 
+i
+ = 1; i <ð
+tÙ®size
+; i++) {
+
+28 
+tmp_£t
+.
+	`š£¹
+(
+i
+);
+
+30 
+sh¬ed_±r
+<
+£t
+<
+size_ty³
+>> 
+p£t
+ = 
+make_sh¬ed
+<set<size_type>>();
+
+32 
+	`£t_difã»nû
+(
+	`begš
+(
+tmp_£t
+),
+	`’d
+Ñmp_£t),begš(*
+foundlšes
+),end(*foundlines),
+
+33 
+	`š£¹”
+(*
+p£t
+, 
+	`begš
+(*pset)));
+
+34 
+»suÉ
+.
+	`£t_lšes
+(
+p£t
+);
+
+36  
+»suÉ
+;
+
+37 
+	}
+}
+
+	@/opt/study/cpp/QueryOpp/NotQuery.h
+
+1 #iâdeà
+NOT_QUERY_H_
+
+
+2 
+	#NOT_QUERY_H_
+
+
+	)
+
+5 
+	~"Qu”y_ba£.h
+"
+
+6 
+	~"Qu”yResuÉ.h
+"
+
+7 
+	~"Qu”yText.h
+"
+
+8 
+	~"Qu”y.h
+"
+
+10 þas 
+	cNÙQu”y
+ : 
+public
+ 
+Qu”y_ba£
+ {
+
+11 
+public
+:
+
+12 
+ä›nd
+ 
+þass
+ 
+Qu”y
+;
+
+13 
+Qu”yResuÉ
+ 
+ev®
+(
+Qu”yText
+ & 
+t
+);
+
+14 
+NÙQu”y
+(
+Qu”y
+ & 
+q
+);
+
+15 
+	m´iv©e
+:
+
+16 
+sh¬ed_±r
+<
+Qu”y
+> 
+pqu”y
+;
+
+	@/opt/study/cpp/QueryOpp/OrQuery.cpp
+
+	@/opt/study/cpp/QueryOpp/OrQuery.h
+
+	@/opt/study/cpp/QueryOpp/Query.cpp
+
+1 #iâdeà
+QUERY_CPP_
+
+
+2 
+	#QUERY_CPP_
+
+
+	)
+
+5 
+	~"Qu”y.h
+"
+
+6 
+	~"AndQu”y.h
+"
+
+7 
+	~"NÙQu”y.h
+"
+
+8 
+	~"OrQu”y.h
+"
+
+10 
+	~<memÜy
+>
+
+12 
+usšg
+ 
+Çme¥aû
+ 
+	g¡d
+;
+
+14 
+Qu”y
+ 
+	gÝ”©Ü
+~(cÚ¡ 
+	gQu”y
+ & 
+	gq
+)
+
+16  
+Qu”y
+(
+make_sh¬ed
+<Qu”y>(
+q
+));
+
+18 
+Qu”y
+ 
+	gÝ”©Ü
+&(cÚ¡ 
+	gQu”y
+ & 
+	gl
+, cÚ¡ Qu”y & 
+	gr
+)
+
+22 
+Qu”y
+ 
+	gÝ”©Ü
+|(cÚ¡ 
+	gQu”y
+ & 
+	gl
+, cÚ¡ Qu”y & 
+	gr
+)
+
+	@/opt/study/cpp/QueryOpp/Query.h
+
+1 #iâdeà
+QUERY_H_
+
+
+2 
+	#QUERY_H_
+
+
+	)
+
+4 
+	~<memÜy
+>
+
+5 
+	~<¡ršg
+>
+
+7 
+	~"Qu”yResuÉ.h
+"
+
+8 
+	~"Qu”y_ba£.h
+"
+
+10 
+usšg
+ 
+	g¡d
+::
+sh¬ed_±r
+;
+
+11 
+usšg
+ 
+	g¡d
+::
+¡ršg
+;
+
+13 
+þass
+ 
+	gQu”y_ba£
+;
+
+14 
+þass
+ 
+	gQu”yResuÉ
+;
+
+15 
+þass
+ 
+	gQu”yText
+;
+
+18 þas 
+	cQu”y
+ {
+
+19 
+	mpublic
+:
+
+20 
+ä›nd
+ 
+þass
+ 
+Qu”y_ba£
+;
+
+21 
+ä›nd
+ 
+Qu”y
+ 
+	mÝ”©Ü
+~(cÚ¡ 
+	mQu”y
+ & 
+	mq
+);
+
+22 
+ä›nd
+ 
+Qu”y
+ 
+	mÝ”©Ü
+&(cÚ¡ 
+	mQu”y
+ & 
+	ml
+, cÚ¡ Qu”y & 
+	mr
+);
+
+23 
+ä›nd
+ 
+Qu”y
+ 
+	mÝ”©Ü
+|(cÚ¡ 
+	mQu”y
+ & 
+	ml
+, cÚ¡ Qu”y & 
+	mr
+);
+
+24 
+Qu”yResuÉ
+ 
+	$ev®
+(
+Qu”yText
+ & 
+txt
+è{ 
+pba£
+->
+	`ev®
+(txt);}
+
+26 
+´iv©e
+:
+
+27 
+	`Qu”y
+(
+sh¬ed_±r
+<
+Qu”y_ba£
+> 
+p
+è: 
+	$pba£
+(
+p
+è{
+	}
+}
+
+28 
+¡ršg
+ 
+wÜd
+;
+
+29 
+	gsh¬ed_±r
+<
+	gQu”y_ba£
+> 
+	gpba£
+;
+
+	@/opt/study/cpp/QueryOpp/QueryResult.cpp
+
+1 #iâdeà
+__QUERY_RESULT_CPP
+
+
+2 
+	#__QUERY_RESULT_CPP
+
+
+	)
+
+4 
+	~"Qu”yResuÉ.h
+"
+
+5 
+	~<®gÜ™hm
+>
+
+8 
+usšg
+ 
+Çme¥aû
+ 
+	g¡d
+;
+
+10 
+	gQu”yResuÉ
+::
+	$di¥Ïy
+() const
+
+13 if(
+lšes_£t
+ =ð
+nuÎ±r
+) {
+
+14 
+cout
+ << "NÙ found‡ny " << 
+qu”y_wÜd
+ << " .";
+
+18 autØ
+lšes
+ = (*
+lšes_£t
+);
+
+20 autØ
+fžes
+ = (*
+fže
+);
+
+21 
+cout
+ << "Found " << 
+qu”y_wÜd
+ << " " << 
+	`size
+() << "imes:\n";
+
+22 autØ
+™
+:
+lšes
+) {
+
+24 
+cout
+ << 
+fžes
+[
+™
+-1] << 
+’dl
+;
+
+27 
+	}
+}
+
+	@/opt/study/cpp/QueryOpp/QueryResult.h
+
+1 #iâdeà
+QUERY_RESULT_H
+
+
+2 
+	#QUERY_RESULT_H
+
+
+	)
+
+4 
+	~<£t
+>
+
+5 
+	~<¡ršg
+>
+
+6 
+	~<memÜy
+>
+
+7 
+	~<veùÜ
+>
+
+8 
+	~<io¡»am
+>
+
+11 
+usšg
+ 
+	g¡d
+::
+£t
+;
+
+12 
+usšg
+ 
+	g¡d
+::
+¡ršg
+;
+
+13 
+usšg
+ 
+	g¡d
+::
+sh¬ed_±r
+;
+
+14 
+usšg
+ 
+	g¡d
+::
+veùÜ
+;
+
+15 
+usšg
+ 
+	g¡d
+::
+cout
+;
+
+17 þas 
+	cQu”yResuÉ
+ {
+
+18 
+	mpublic
+:
+
+19 
+£t
+<
+	t¡ršg
+>::
+	tsize_ty³
+ size_type;
+
+20 
+Qu”yResuÉ
+() = ;
+
+21 ~
+Qu”yResuÉ
+() = ;
+
+22 
+Qu”yResuÉ
+(
+sh¬ed_±r
+<
+£t
+<
+size_ty³
+>> 
+p
+, sh¬ed_±r<
+veùÜ
+<
+¡ršg
+>> 
+f
+,cÚ¡ sŒšg & 
+s
+è: 
+lšes_£t
+Õ),
+fže
+(f),
+	$qu”y_wÜd
+(
+s
+) {}
+
+24 
+size_ty³
+ 
+	$size
+(ècÚ¡ {  (*
+lšes_£t
+).
+	`size
+();
+	}
+}
+
+26 
+	gsh¬ed_±r
+<
+	g£t
+<
+	gsize_ty³
+>> 
+	$g‘_lšes
+(ècÚ¡ { 
+lšes_£t
+;
+	}
+}
+
+28 
+£t_lšes
+(
+sh¬ed_±r
+<
+£t
+<
+size_ty³
+>> 
+l
+) {
+
+29 
+	glšes_£t
+ = 
+l
+;
+
+31 
+	$di¥Ïy
+() const;
+
+33 
+size_ty³
+ 
+	$tÙ®_lšes
+(è{ 
+fže
+->
+	`size
+();
+	}
+}
+
+34 
+	g´iv©e
+:
+
+35 
+sh¬ed_±r
+<
+£t
+<
+size_ty³
+>> 
+lšes_£t
+;
+
+36 
+	gsh¬ed_±r
+<
+	gveùÜ
+<
+	g¡ršg
+>> 
+	gfže
+;
+
+37 
+¡ršg
+ 
+	gqu”y_wÜd
+;
+
+	@/opt/study/cpp/QueryOpp/QueryText.cpp
+
+1 #iâdeà
+QUERYTEXT_CPP_
+
+
+2 
+	#QUERYTEXT_CPP_
+
+
+	)
+
+4 
+	~"Qu”yText.h
+"
+
+5 
+	~"Qu”yResuÉ.h
+"
+
+6 
+	~<io¡»am
+>
+
+7 
+	~<s¡»am
+>
+
+8 
+	~<®gÜ™hm
+>
+
+9 
+	~<utž™y
+>
+
+11 
+usšg
+ 
+Çme¥aû
+ 
+	g¡d
+;
+
+12 
+	g¡ršg
+ & 
+	gQu”yText
+::
+	$wÜd_cÚv”t
+(
+¡ršg
+ & 
+wÜd
+)
+
+14 ià(
+wÜd
+[0] >= 'A' && word[0] <= 'Z')
+
+15 
+wÜd
+[0] += 32;
+
+16 ià(
+wÜd
+[wÜd.
+	`Ëngth
+() -1] == ',' ||
+
+17 
+wÜd
+[wÜd.
+	`Ëngth
+() -1] == '.' ||
+
+18 
+wÜd
+[wÜd.
+	`Ëngth
+() -1] == '!' ) {
+
+20 
+wÜd
+ = wÜd.
+	`sub¡r
+(0,wÜd.
+	`Ëngth
+() -1);
+
+23  
+wÜd
+;
+
+24 
+	}
+}
+
+26 
+	gQu”yText
+::
+	$Qu”yText
+(
+if¡»am
+ & 
+f
+)
+
+28 if(
+fže
+ =ð
+nuÎ±r
+) {
+
+29 
+fže
+ = 
+make_sh¬ed
+<
+veùÜ
+<
+¡ršg
+>>();
+
+31 
+lše
+[512];
+
+32 
+size_ty³
+ 
+Êum
+ = 0;
+
+33 
+¡ršg
+ 
+wÜd
+;
+
+34 
+f
+.
+	`g‘lše
+(
+lše
+,512)) {
+
+35 ++
+Êum
+;
+
+36 
+fže
+->
+	`push_back
+(
+lše
+);
+
+37 
+i¡ršg¡»am
+ 
+	`ss
+(
+lše
+);
+
+38  
+ss
+ >> 
+wÜd
+ ) {
+
+39 
+wÜd
+ = 
+	`wÜd_cÚv”t
+(word);
+
+40 ià(
+šdexs
+.
+	`fšd
+(
+wÜd
+è=ðšdexs.
+	`’d
+() ) {
+
+41 
+šdexs
+.
+	`š£¹
+(
+	`make_·œ
+(
+wÜd
+,
+make_sh¬ed
+<
+£t
+<
+size_ty³
+>>()));
+
+43 
+šdexs
+[
+wÜd
+]->
+	`š£¹
+(
+Êum
+);
+
+46 
+	}
+}
+
+48 
+Qu”yResuÉ
+ 
+	gQu”yText
+::
+	$qu”y
+(cÚ¡ 
+¡ršg
+ & 
+¡r
+)
+
+50 
+qu”y_wÜd
+ = 
+¡r
+;
+
+52 autØ
+™
+ = 
+šdexs
+.
+	`fšd
+(
+¡r
+);
+
+53 iàÐ
+™
+ !ð
+šdexs
+.
+	`’d
+() ) {
+
+55  
+	`Qu”yResuÉ
+(
+šdexs
+[
+™
+->
+fœ¡
+],
+fže
+,
+¡r
+);
+
+58  
+	`Qu”yResuÉ
+(
+nuÎ±r
+,
+fže
+,
+¡r
+);
+
+59 
+	}
+}
+
+	@/opt/study/cpp/QueryOpp/QueryText.h
+
+1 #iâdeà
+QUERYTEXT_H
+
+
+2 
+	#QUERYTEXT_H
+
+
+	)
+
+4 
+	~<veùÜ
+>
+
+5 
+	~<¡ršg
+>
+
+6 
+	~<f¡»am
+>
+
+7 
+	~<io¡»am
+>
+
+8 
+	~<m­
+>
+
+9 
+	~<£t
+>
+
+10 
+	~<memÜy
+>
+
+12 
+usšg
+ 
+	g¡d
+::
+veùÜ
+;
+
+13 
+usšg
+ 
+	g¡d
+::
+¡ršg
+;
+
+14 
+usšg
+ 
+	g¡d
+::
+if¡»am
+;
+
+15 
+usšg
+ 
+	g¡d
+::
+o¡»am
+;
+
+16 
+usšg
+ 
+	g¡d
+::
+m­
+;
+
+17 
+usšg
+ 
+	g¡d
+::
+£t
+;
+
+18 
+usšg
+ 
+	g¡d
+::
+sh¬ed_±r
+;
+
+20 
+þass
+ 
+	gQu”yResuÉ
+;
+
+22 þas 
+	cQu”yText
+ {
+
+23 
+	mpublic
+:
+
+24 
+£t
+<
+	t¡ršg
+>::
+	tsize_ty³
+ size_type;
+
+25 
+Qu”yText
+(
+if¡»am
+ & 
+fže
+);
+
+26 
+Qu”yResuÉ
+ 
+qu”y
+(cÚ¡ 
+¡ršg
+ & 
+¡r
+);
+
+27 
+	mo¡»am
+ & 
+di¥Ïy
+(
+o¡»am
+ & 
+os
+,
+Qu”yResuÉ
+ & 
+»suÉ
+);
+
+28 
+	m´iv©e
+:
+
+29 
+sh¬ed_±r
+<
+veùÜ
+<
+¡ršg
+>> 
+fže
+;
+
+30 
+	mm­
+<
+	m¡ršg
+,
+	msh¬ed_±r
+<
+	m£t
+<
+	msize_ty³
+>>> 
+	mšdexs
+;
+
+31 
+¡ršg
+ 
+	mqu”y_wÜd
+;
+
+32 
+	m¡ršg
+ & 
+wÜd_cÚv”t
+(
+¡ršg
+ & 
+wÜd
+);
+
+	@/opt/study/cpp/QueryOpp/Query_base.cpp
+
+	@/opt/study/cpp/QueryOpp/Query_base.h
+
+1 #iâdeà
+Qu”y_ba£__H___
+
+
+2 
+	#Qu”y_ba£__H___
+
+
+	)
+
+4 
+	~"Qu”yText.h
+"
+
+5 
+	~"Qu”yResuÉ.h
+"
+
+7 þas 
+	cQu”y_ba£
+ {
+
+8 
+	mpublic
+:
+
+9 
+vœtu®
+ 
+Qu”yResuÉ
+ 
+ev®
+(
+Qu”yText
+ & 
+t
+) = 0;
+
+10 
+vœtu®
+ 
+di¥Ïy
+(
+Qu”yResuÉ
+ & 
+r
+) = 0;
+
+11 
+	$Qu”y_ba£
+(){}
+
+12 
+vœtu®
+ ~
+	$Qu”y_ba£
+(){
+	}
+}
+
+	@/opt/study/cpp/QueryOpp/WordQuery.cpp
+
+	@/opt/study/cpp/QueryOpp/WordQuery.h
+
+	@/opt/study/cpp/QueryOpp/common.h
+
+1 #iâdeà
+COMMON__H_
+
+
+2 
+	#COMMON__H_
+
+
+	)
+
+	@/opt/study/cpp/QueryOpp/main.cpp
+
+2 
+	~"Qu”yResuÉ.h
+"
+
+3 
+	~"Qu”yText.h
+"
+
+4 
+	~<io¡»am
+>
+
+5 
+	~<®gÜ™hm
+>
+
+8 
+usšg
+ 
+Çme¥aû
+ 
+	g¡d
+;
+
+11 
+	$Qu”yResuÉ_‹¡
+()
+
+13 autØ
+lšes
+ = 
+make_sh¬ed
+<
+£t
+<
+Qu”yResuÉ
+::
+size_ty³
+>>();
+
+14 
+lšes
+->
+	`š£¹
+(1);
+
+15 
+lšes
+->
+	`š£¹
+(2);
+
+16 
+lšes
+->
+	`š£¹
+(3);
+
+17 
+	`fÜ_—ch
+(
+	`begš
+(*
+lšes
+),
+	`’d
+(*lšes),[](cÚ¡ 
+Qu”yResuÉ
+::
+size_ty³
+ & 
+i
+){
+
+18 
+cout
+ << 
+i
+ << " ";});
+
+19 
+cout
+ << "\n";
+
+21 autØ
+vecs
+ = 
+make_sh¬ed
+<
+veùÜ
+<
+¡ršg
+>>();
+
+22 
+vecs
+->
+	`push_back
+("11");
+
+23 
+vecs
+->
+	`push_back
+("22");
+
+24 
+vecs
+->
+	`push_back
+("33");
+
+27 
+Qu”yResuÉ
+ 
+»s
+ = 
+	`Qu”yResuÉ
+(
+lšes
+,
+vecs
+,"query");
+
+28 
+»s
+.
+	`di¥Ïy
+();
+
+30 
+	}
+}
+
+32 
+	$Qu”yText_‹¡
+(
+¬gc
+ ,* 
+¬gv
+[])
+
+34 if(
+¬gc
+ < 2) {
+
+35 
+cout
+ << "Need‡ word.\n";
+
+38 
+if¡»am
+ 
+	`fš
+("README.md");
+
+39 if(!
+fš
+) {
+
+40 
+cout
+ << "File‚otƒxist\n";
+
+44 
+	`Qu”yText
+(
+fš
+).
+	`qu”y
+(
+¬gv
+[1]).
+	`di¥Ïy
+();
+
+45 
+	}
+}
+
+47 
+	$NÙQu”y_‹¡
+()
+
+49 
+	}
+}
+
+51 
+	$maš
+(
+¬gc
+ ,* 
+¬gv
+[])
+
+54 
+	`Qu”yText_‹¡
+(
+¬gc
+, 
+¬gv
+);
+
+56 
+	}
+}
+
+	@AndQuery.h
+
+	@NotQuery.h
+
+1 #iâdeà
+NOT_QUERY_H_
+
+
+2 
+	#NOT_QUERY_H_
+
+
+	)
+
+5 
+	~"Qu”y_ba£.h
+"
+
+6 
+	~"Qu”yResuÉ.h
+"
+
+7 
+	~"Qu”yText.h
+"
+
+8 
+	~"Qu”y.h
+"
+
+10 þas 
+	cNÙQu”y
+ : 
+public
+ 
+Qu”y_ba£
+ {
+
+11 
+public
+:
+
+12 
+ä›nd
+ 
+þass
+ 
+Qu”y
+;
+
+13 
+Qu”yResuÉ
+ 
+ev®
+(
+Qu”yText
+ & 
+t
+);
+
+14 
+NÙQu”y
+(
+Qu”y
+ & 
+q
+);
+
+15 
+	m´iv©e
+:
+
+16 
+sh¬ed_±r
+<
+Qu”y
+> 
+pqu”y
+;
+
+	@OrQuery.h
+
+	@Query.h
+
+1 #iâdeà
+QUERY_H_
+
+
+2 
+	#QUERY_H_
+
+
+	)
+
+4 
+	~<memÜy
+>
+
+5 
+	~<¡ršg
+>
+
+7 
+	~"Qu”yResuÉ.h
+"
+
+8 
+	~"Qu”y_ba£.h
+"
+
+10 
+usšg
+ 
+	g¡d
+::
+sh¬ed_±r
+;
+
+11 
+usšg
+ 
+	g¡d
+::
+¡ršg
+;
+
+13 
+þass
+ 
+	gQu”y_ba£
+;
+
+14 
+þass
+ 
+	gQu”yResuÉ
+;
+
+15 
+þass
+ 
+	gQu”yText
+;
+
+18 þas 
+	cQu”y
+ {
+
+19 
+	mpublic
+:
+
+20 
+ä›nd
+ 
+þass
+ 
+Qu”y_ba£
+;
+
+21 
+ä›nd
+ 
+Qu”y
+ 
+	mÝ”©Ü
+~(cÚ¡ 
+	mQu”y
+ & 
+	mq
+);
+
+22 
+ä›nd
+ 
+Qu”y
+ 
+	mÝ”©Ü
+&(cÚ¡ 
+	mQu”y
+ & 
+	ml
+, cÚ¡ Qu”y & 
+	mr
+);
+
+23 
+ä›nd
+ 
+Qu”y
+ 
+	mÝ”©Ü
+|(cÚ¡ 
+	mQu”y
+ & 
+	ml
+, cÚ¡ Qu”y & 
+	mr
+);
+
+24 
+Qu”yResuÉ
+ 
+	$ev®
+(
+Qu”yText
+ & 
+txt
+è{ 
+pba£
+->
+	`ev®
+(txt);}
+
+26 
+´iv©e
+:
+
+27 
+	`Qu”y
+(
+sh¬ed_±r
+<
+Qu”y_ba£
+> 
+p
+è: 
+	$pba£
+(
+p
+è{
+	}
+}
+
+28 
+¡ršg
+ 
+wÜd
+;
+
+29 
+	gsh¬ed_±r
+<
+	gQu”y_ba£
+> 
+	gpba£
+;
+
+	@QueryResult.h
+
+1 #iâdeà
+QUERY_RESULT_H
+
+
+2 
+	#QUERY_RESULT_H
+
+
+	)
+
+4 
+	~<£t
+>
+
+5 
+	~<¡ršg
+>
+
+6 
+	~<memÜy
+>
+
+7 
+	~<veùÜ
+>
+
+8 
+	~<io¡»am
+>
+
+11 
+usšg
+ 
+	g¡d
+::
+£t
+;
+
+12 
+usšg
+ 
+	g¡d
+::
+¡ršg
+;
+
+13 
+usšg
+ 
+	g¡d
+::
+sh¬ed_±r
+;
+
+14 
+usšg
+ 
+	g¡d
+::
+veùÜ
+;
+
+15 
+usšg
+ 
+	g¡d
+::
+cout
+;
+
+17 þas 
+	cQu”yResuÉ
+ {
+
+18 
+	mpublic
+:
+
+19 
+£t
+<
+	t¡ršg
+>::
+	tsize_ty³
+ size_type;
+
+20 
+Qu”yResuÉ
+() = ;
+
+21 ~
+Qu”yResuÉ
+() = ;
+
+22 
+Qu”yResuÉ
+(
+sh¬ed_±r
+<
+£t
+<
+size_ty³
+>> 
+p
+, sh¬ed_±r<
+veùÜ
+<
+¡ršg
+>> 
+f
+,cÚ¡ sŒšg & 
+s
+è: 
+lšes_£t
+Õ),
+fže
+(f),
+	$qu”y_wÜd
+(
+s
+) {}
+
+24 
+size_ty³
+ 
+	$size
+(ècÚ¡ {  (*
+lšes_£t
+).
+	`size
+();
+	}
+}
+
+26 
+	gsh¬ed_±r
+<
+	g£t
+<
+	gsize_ty³
+>> 
+	$g‘_lšes
+(ècÚ¡ { 
+lšes_£t
+;
+	}
+}
+
+28 
+£t_lšes
+(
+sh¬ed_±r
+<
+£t
+<
+size_ty³
+>> 
+l
+) {
+
+29 
+	glšes_£t
+ = 
+l
+;
+
+31 
+	$di¥Ïy
+() const;
+
+33 
+size_ty³
+ 
+	$tÙ®_lšes
+(è{ 
+fže
+->
+	`size
+();
+	}
+}
+
+34 
+	g´iv©e
+:
+
+35 
+sh¬ed_±r
+<
+£t
+<
+size_ty³
+>> 
+lšes_£t
+;
+
+36 
+	gsh¬ed_±r
+<
+	gveùÜ
+<
+	g¡ršg
+>> 
+	gfže
+;
+
+37 
+¡ršg
+ 
+	gqu”y_wÜd
+;
+
+	@QueryText.h
+
+1 #iâdeà
+QUERYTEXT_H
+
+
+2 
+	#QUERYTEXT_H
+
+
+	)
+
+4 
+	~<veùÜ
+>
+
+5 
+	~<¡ršg
+>
+
+6 
+	~<f¡»am
+>
+
+7 
+	~<io¡»am
+>
+
+8 
+	~<m­
+>
+
+9 
+	~<£t
+>
+
+10 
+	~<memÜy
+>
+
+12 
+usšg
+ 
+	g¡d
+::
+veùÜ
+;
+
+13 
+usšg
+ 
+	g¡d
+::
+¡ršg
+;
+
+14 
+usšg
+ 
+	g¡d
+::
+if¡»am
+;
+
+15 
+usšg
+ 
+	g¡d
+::
+o¡»am
+;
+
+16 
+usšg
+ 
+	g¡d
+::
+m­
+;
+
+17 
+usšg
+ 
+	g¡d
+::
+£t
+;
+
+18 
+usšg
+ 
+	g¡d
+::
+sh¬ed_±r
+;
+
+20 
+þass
+ 
+	gQu”yResuÉ
+;
+
+22 þas 
+	cQu”yText
+ {
+
+23 
+	mpublic
+:
+
+24 
+£t
+<
+	t¡ršg
+>::
+	tsize_ty³
+ size_type;
+
+25 
+Qu”yText
+(
+if¡»am
+ & 
+fže
+);
+
+26 
+Qu”yResuÉ
+ 
+qu”y
+(cÚ¡ 
+¡ršg
+ & 
+¡r
+);
+
+27 
+	mo¡»am
+ & 
+di¥Ïy
+(
+o¡»am
+ & 
+os
+,
+Qu”yResuÉ
+ & 
+»suÉ
+);
+
+28 
+	m´iv©e
+:
+
+29 
+sh¬ed_±r
+<
+veùÜ
+<
+¡ršg
+>> 
+fže
+;
+
+30 
+	mm­
+<
+	m¡ršg
+,
+	msh¬ed_±r
+<
+	m£t
+<
+	msize_ty³
+>>> 
+	mšdexs
+;
+
+31 
+¡ršg
+ 
+	mqu”y_wÜd
+;
+
+32 
+	m¡ršg
+ & 
+wÜd_cÚv”t
+(
+¡ršg
+ & 
+wÜd
+);
+
+	@Query_base.h
+
+1 #iâdeà
+Qu”y_ba£__H___
+
+
+2 
+	#Qu”y_ba£__H___
+
+
+	)
+
+4 
+	~"Qu”yText.h
+"
+
+5 
+	~"Qu”yResuÉ.h
+"
+
+7 þas 
+	cQu”y_ba£
+ {
+
+8 
+	mpublic
+:
+
+9 
+vœtu®
+ 
+Qu”yResuÉ
+ 
+ev®
+(
+Qu”yText
+ & 
+t
+) = 0;
+
+10 
+vœtu®
+ 
+di¥Ïy
+(
+Qu”yResuÉ
+ & 
+r
+) = 0;
+
+11 
+	$Qu”y_ba£
+(){}
+
+12 
+vœtu®
+ ~
+	$Qu”y_ba£
+(){
+	}
+}
+
+	@
+1
+.
+0
+27
+805
+/opt/study/cpp/QueryOpp/AndQuery.cpp
+/opt/study/cpp/QueryOpp/AndQuery.h
+/opt/study/cpp/QueryOpp/BinaryQuery.cpp
+/opt/study/cpp/QueryOpp/BinaryQuery.h
+/opt/study/cpp/QueryOpp/NotQuery.cpp
+/opt/study/cpp/QueryOpp/NotQuery.h
+/opt/study/cpp/QueryOpp/OrQuery.cpp
+/opt/study/cpp/QueryOpp/OrQuery.h
+/opt/study/cpp/QueryOpp/Query.cpp
+/opt/study/cpp/QueryOpp/Query.h
+/opt/study/cpp/QueryOpp/QueryResult.cpp
+/opt/study/cpp/QueryOpp/QueryResult.h
+/opt/study/cpp/QueryOpp/QueryText.cpp
+/opt/study/cpp/QueryOpp/QueryText.h
+/opt/study/cpp/QueryOpp/Query_base.cpp
+/opt/study/cpp/QueryOpp/Query_base.h
+/opt/study/cpp/QueryOpp/WordQuery.cpp
+/opt/study/cpp/QueryOpp/WordQuery.h
+/opt/study/cpp/QueryOpp/common.h
+/opt/study/cpp/QueryOpp/main.cpp
+AndQuery.h
+NotQuery.h
+OrQuery.h
+Query.h
+QueryResult.h
+QueryText.h
+Query_base.h

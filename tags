@@ -1,0 +1,55 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+COMMON__H_	/opt/study/cpp/QueryOpp/common.h	2;"	d
+NOT_QUERY_CPP	/opt/study/cpp/QueryOpp/NotQuery.cpp	2;"	d	file:
+NOT_QUERY_H_	/opt/study/cpp/QueryOpp/NotQuery.h	2;"	d
+NotQuery	/opt/study/cpp/QueryOpp/NotQuery.cpp	/^NotQuery::NotQuery(Query & q)$/;"	f	class:NotQuery
+NotQuery	/opt/study/cpp/QueryOpp/NotQuery.h	/^class NotQuery : public Query_base {$/;"	c
+NotQuery_test	/opt/study/cpp/QueryOpp/main.cpp	/^void NotQuery_test()$/;"	f
+QUERYTEXT_CPP_	/opt/study/cpp/QueryOpp/QueryText.cpp	2;"	d	file:
+QUERYTEXT_H	/opt/study/cpp/QueryOpp/QueryText.h	2;"	d
+QUERY_CPP_	/opt/study/cpp/QueryOpp/Query.cpp	2;"	d	file:
+QUERY_H_	/opt/study/cpp/QueryOpp/Query.h	2;"	d
+QUERY_RESULT_H	/opt/study/cpp/QueryOpp/QueryResult.h	2;"	d
+Query	/opt/study/cpp/QueryOpp/Query.h	/^		Query(shared_ptr<Query_base> p) : pbase(p) {}$/;"	f	class:Query
+Query	/opt/study/cpp/QueryOpp/Query.h	/^class Query {$/;"	c
+QueryResult	/opt/study/cpp/QueryOpp/QueryResult.h	/^		QueryResult(shared_ptr<set<size_type>> p, shared_ptr<vector<string>> f,const string & s) : lines_set(p),file(f),query_word(s) {}$/;"	f	class:QueryResult
+QueryResult	/opt/study/cpp/QueryOpp/QueryResult.h	/^class QueryResult {$/;"	c
+QueryResult_test	/opt/study/cpp/QueryOpp/main.cpp	/^void QueryResult_test()$/;"	f
+QueryText	/opt/study/cpp/QueryOpp/QueryText.cpp	/^QueryText::QueryText(ifstream & f)$/;"	f	class:QueryText
+QueryText	/opt/study/cpp/QueryOpp/QueryText.h	/^class QueryText {$/;"	c
+QueryText_test	/opt/study/cpp/QueryOpp/main.cpp	/^void QueryText_test(int argc ,char* argv[])$/;"	f
+Query_base	/opt/study/cpp/QueryOpp/Query_base.h	/^		Query_base(){}$/;"	f	class:Query_base
+Query_base	/opt/study/cpp/QueryOpp/Query_base.h	/^class Query_base {$/;"	c
+Query_base__H___	/opt/study/cpp/QueryOpp/Query_base.h	2;"	d
+__QUERY_RESULT_CPP	/opt/study/cpp/QueryOpp/QueryResult.cpp	2;"	d	file:
+display	/opt/study/cpp/QueryOpp/QueryResult.cpp	/^void QueryResult::display() const$/;"	f	class:QueryResult
+eval	/opt/study/cpp/QueryOpp/NotQuery.cpp	/^QueryResult NotQuery::eval(QueryText & t)$/;"	f	class:NotQuery
+eval	/opt/study/cpp/QueryOpp/Query.h	/^		QueryResult eval(QueryText & txt) {return pbase->eval(txt);}$/;"	f	class:Query
+file	/opt/study/cpp/QueryOpp/QueryResult.h	/^		shared_ptr<vector<string>> file; \/\/引用vector，避免拷贝$/;"	m	class:QueryResult
+file	/opt/study/cpp/QueryOpp/QueryText.h	/^		shared_ptr<vector<string>> file;$/;"	m	class:QueryText
+get_lines	/opt/study/cpp/QueryOpp/QueryResult.h	/^		shared_ptr<set<size_type>> get_lines() const {return lines_set;} $/;"	f	class:QueryResult
+indexs	/opt/study/cpp/QueryOpp/QueryText.h	/^		map<string,shared_ptr<set<size_type>>> indexs;$/;"	m	class:QueryText
+lines_set	/opt/study/cpp/QueryOpp/QueryResult.h	/^		shared_ptr<set<size_type>> lines_set; \/\/引用set,避免拷贝$/;"	m	class:QueryResult
+main	/opt/study/cpp/QueryOpp/main.cpp	/^int main(int argc ,char* argv[])$/;"	f
+operator &	/opt/study/cpp/QueryOpp/Query.cpp	/^Query operator&(const Query & l, const Query & r)$/;"	f
+operator |	/opt/study/cpp/QueryOpp/Query.cpp	/^Query operator|(const Query & l, const Query & r)$/;"	f
+operator ~	/opt/study/cpp/QueryOpp/Query.cpp	/^Query operator~(const Query & q)$/;"	f
+pbase	/opt/study/cpp/QueryOpp/Query.h	/^		shared_ptr<Query_base> pbase;$/;"	m	class:Query
+pquery	/opt/study/cpp/QueryOpp/NotQuery.h	/^		shared_ptr<Query> pquery; \/\/用来保存~(xx)里的xx,也是个query对象$/;"	m	class:NotQuery
+query	/opt/study/cpp/QueryOpp/QueryText.cpp	/^QueryResult QueryText::query(const string & str)$/;"	f	class:QueryText
+query_word	/opt/study/cpp/QueryOpp/QueryResult.h	/^		string query_word;$/;"	m	class:QueryResult
+query_word	/opt/study/cpp/QueryOpp/QueryText.h	/^		string query_word;$/;"	m	class:QueryText
+set_lines	/opt/study/cpp/QueryOpp/QueryResult.h	/^		void set_lines(shared_ptr<set<size_type>> l) {$/;"	f	class:QueryResult
+size	/opt/study/cpp/QueryOpp/QueryResult.h	/^		size_type size() const { return (*lines_set).size();} \/\/引用set,避免拷贝$/;"	f	class:QueryResult
+size_type	/opt/study/cpp/QueryOpp/NotQuery.cpp	/^typedef QueryResult::size_type size_type;$/;"	t	file:
+size_type	/opt/study/cpp/QueryOpp/QueryResult.h	/^		typedef set<string>::size_type size_type;$/;"	t	class:QueryResult
+size_type	/opt/study/cpp/QueryOpp/QueryText.h	/^		typedef set<string>::size_type size_type;$/;"	t	class:QueryText
+total_lines	/opt/study/cpp/QueryOpp/QueryResult.h	/^		size_type total_lines() {return file->size();}$/;"	f	class:QueryResult
+word	/opt/study/cpp/QueryOpp/Query.h	/^		string word;$/;"	m	class:Query
+word_convert	/opt/study/cpp/QueryOpp/QueryText.cpp	/^string & QueryText::word_convert(string & word)$/;"	f	class:QueryText
+~Query_base	/opt/study/cpp/QueryOpp/Query_base.h	/^		virtual ~Query_base(){}$/;"	f	class:Query_base
